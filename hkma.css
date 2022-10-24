@@ -1,0 +1,65 @@
+body{
+font-family: sans-serif;
+padding: 0;
+margin: 0;
+background-color: #f4f4f4;
+direction: rtl;
+}
+header {
+padding: 10px 10px;
+font-weight: bold;
+text-align: center;
+
+background:#7977be;
+color: #ffffff;
+border-bottom:  #ffffff 6px solid;
+}
+@media (max-width: 575.98px) {
+    header{
+        background-position: center center;
+       }
+}
+@media(max-width: 576px) and (max-width: 767.98px) {
+    header{
+        background-position: center center;
+       }
+}   
+@media(max-width: 768px) and (max-width: 991.98px) 
+{
+   header{
+    background-position: center center;
+   }
+}   
+
+.one {
+    background-image: url("../img/hkma.jpg");
+    background-size: cover;
+    height: 80vh;
+}
+
+.two {
+    color:  #7977be;
+    font-size: 20px;
+}
+.three
+{
+     font-size: 20px;
+}
+ li {
+    font-size: 20px;
+}
+.four {
+    font-size: 30px;
+    color:#2e1338 ;
+
+}
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color:#7977be;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+
+}
